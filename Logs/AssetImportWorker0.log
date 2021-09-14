@@ -1,0 +1,205 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.17f1 (a4537701e4ab) revision 10769271'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1165; Version 2009; 64bit' Language: 'en' Physical Memory: 8138 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/XenoG/OneDrive/Documents/GitHub/Project-Pewpew
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53427
+Successfully changed project path to: C:/Users/XenoG/OneDrive/Documents/GitHub/Project-Pewpew
+C:/Users/XenoG/OneDrive/Documents/GitHub/Project-Pewpew
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 29.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.17f1 (a4537701e4ab)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/XenoG/OneDrive/Documents/GitHub/Project-Pewpew/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 580 Series (ID=0x67df)
+    Vendor:   
+    VRAM:     8171 MB
+    Driver:   27.20.22023.1004
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56488
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010863 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 25.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 12.446 seconds
+Domain Reload Profiling:
+	ReloadAssembly (12446ms)
+		BeginReloadAssembly (47ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (336ms)
+			LoadAssemblies (46ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (125ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (130ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (25ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (66ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.029433 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.047 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1047ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (1ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (867ms)
+			LoadAssemblies (135ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (253ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (348ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (255ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1397 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.9 MB.
+System memory in use after: 65.0 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1830.
+Total: 4.977800 ms (FindLiveObjects: 0.177400 ms CreateObjectMapping: 0.032600 ms MarkObjects: 4.197200 ms  DeleteObjects: 0.569000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Buzzo.blend
+  artifactKey: Guid(635a62c107b11fa46a70b9d029b8b3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buzzo.blend using Guid(635a62c107b11fa46a70b9d029b8b3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3877f520c79390347cc1aeef388d6e16') in 0.295658 seconds 
+  Import took 0.299694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4700.545592 seconds.
+  path: Assets/Zipsy.blend
+  artifactKey: Guid(32a853154dac3d54da185c783fb6027a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zipsy.blend using Guid(32a853154dac3d54da185c783fb6027a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c1087daf0f5de3741bdfb1f9c92960c') in 0.124306 seconds 
+  Import took 0.161279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 113.442601 seconds.
+  path: Assets/Slib.blend
+  artifactKey: Guid(b7bba097a99e3f647a312f03408cb781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slib.blend using Guid(b7bba097a99e3f647a312f03408cb781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b3bb5f77661c5c94252dca8d65405cf') in 0.050975 seconds 
+  Import took 0.055368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 136.314901 seconds.
+  path: Assets/Slib.blend
+  artifactKey: Guid(b7bba097a99e3f647a312f03408cb781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slib.blend using Guid(b7bba097a99e3f647a312f03408cb781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62c8b786d021c14534f148d5e3dd8e87') in 0.059269 seconds 
+  Import took 0.063610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.897349 seconds.
+  path: Assets/Buzzo.blend
+  artifactKey: Guid(635a62c107b11fa46a70b9d029b8b3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buzzo.blend using Guid(635a62c107b11fa46a70b9d029b8b3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a012083a50524527c6962290d6245d1c') in 0.098314 seconds 
+  Import took 0.103659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.847800 seconds.
+  path: Assets/Zipsy.blend
+  artifactKey: Guid(32a853154dac3d54da185c783fb6027a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zipsy.blend using Guid(32a853154dac3d54da185c783fb6027a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '078022962f1528e7cfe51ef71dab9879') in 0.085977 seconds 
+  Import took 0.091056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.916814 seconds.
+  path: Assets/Slib.blend1
+  artifactKey: Guid(de93deb4ab823fa43bdc0e5c33edb662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slib.blend1 using Guid(de93deb4ab823fa43bdc0e5c33edb662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5693b2708b525fd427f726d3cd8973ea') in 0.009688 seconds 
+  Import took 0.014478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.341901 seconds.
+  path: Assets/Buzzo.blend1
+  artifactKey: Guid(b393961505b1b074c86c225d5cd103ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buzzo.blend1 using Guid(b393961505b1b074c86c225d5cd103ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f41f733d1970fc5a21aa1927b5bb5f2c') in 0.003920 seconds 
+  Import took 0.009137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.067852 seconds.
+  path: Assets/Zipsy.blend1
+  artifactKey: Guid(b2e8a386d4fa18e4f9ff0a38947f3ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zipsy.blend1 using Guid(b2e8a386d4fa18e4f9ff0a38947f3ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4d9201bb199d586d17ad9f40586556') in 0.003456 seconds 
+  Import took 0.009152 seconds .
+

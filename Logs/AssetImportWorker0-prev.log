@@ -1,0 +1,2470 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.17f1 (a4537701e4ab) revision 10769271'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1165; Version 2009; 64bit' Language: 'en' Physical Memory: 8138 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/XenoG/OneDrive/Documents/GitHub/Project-Pewpew
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64817
+Successfully changed project path to: C:/Users/XenoG/OneDrive/Documents/GitHub/Project-Pewpew
+C:/Users/XenoG/OneDrive/Documents/GitHub/Project-Pewpew
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 37.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.17f1 (a4537701e4ab)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/XenoG/OneDrive/Documents/GitHub/Project-Pewpew/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 580 Series (ID=0x67df)
+    Vendor:   
+    VRAM:     8171 MB
+    Driver:   27.20.22023.1004
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56024
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010963 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 28.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 22.725 seconds
+Domain Reload Profiling:
+	ReloadAssembly (22726ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (4ms)
+		EndReloadAssembly (511ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (3ms)
+			SetupTypeCache (194ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (192ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (29ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (99ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.027070 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.090 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1092ms)
+		BeginReloadAssembly (139ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (895ms)
+			LoadAssemblies (139ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (262ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (382ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (291ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.28 seconds
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1397 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.9 MB.
+System memory in use after: 64.9 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1830.
+Total: 12.426300 ms (FindLiveObjects: 0.178800 ms CreateObjectMapping: 0.034400 ms MarkObjects: 10.836700 ms  DeleteObjects: 1.375100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '426b27c1d1d34adcedfc6ef57128de93') in 0.202576 seconds 
+  Import took 0.205736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.319947 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b993c061e8ce5cd351b23b850a17c994') in 0.029799 seconds 
+  Import took 0.032143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.116140 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38573eed6bf9f9ebb030df88e1fd18b4') in 0.013278 seconds 
+  Import took 0.015474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.708933 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86de6ba0480cf8a0a919067258b743ba') in 0.096253 seconds 
+  Import took 0.099023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.916319 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b8c806eff4a633ecf79a6af5fa8a296') in 0.021405 seconds 
+  Import took 0.023762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.576863 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a2fc87fa9f46106f62d5c6f2239e03') in 0.015061 seconds 
+  Import took 0.017332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.201157 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf47857a838c59c5f175638584e9b67e') in 0.065731 seconds 
+  Import took 0.067963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.554848 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1448be97833b56f60e6af20f86be771') in 0.012660 seconds 
+  Import took 0.014871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.420166 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa52e2d033fd90b21a403a41a5584e2') in 0.016338 seconds 
+  Import took 0.018837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.503770 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '877b14f2442958786f09eafc3354dd78') in 0.011728 seconds 
+  Import took 0.014493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.804038 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5e9d18fa8a8cbba5ab4cbd0aa06e8fb') in 0.018385 seconds 
+  Import took 0.021080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.222831 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf3bf4e919dc475c2e95d185fea2cb5') in 0.027991 seconds 
+  Import took 0.030330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.374550 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156e9eaaa6188a58ed8347945b0792cd') in 0.014163 seconds 
+  Import took 0.016657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.261355 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.009720 seconds 
+  Import took 0.011966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.859024 seconds.
+  path: Assets/Mat 1.mat
+  artifactKey: Guid(f73bb1b0ea47879429b969d8372b5d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mat 1.mat using Guid(f73bb1b0ea47879429b969d8372b5d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adeef52973fb5de56d503a49928b24da') in 0.876757 seconds 
+  Import took 0.879123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.517236 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c37c42676bca70048837342d8148db7c') in 0.009529 seconds 
+  Import took 0.012117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.855437 seconds.
+  path: Assets/New Material.mat
+  artifactKey: Guid(cd6d96ec370c44c42827258c910fe7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material.mat using Guid(cd6d96ec370c44c42827258c910fe7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e0c2489377a3504b5eef853aff94e2') in 0.043061 seconds 
+  Import took 0.045485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.989239 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47821a056e0f2331139d55d90c9a31b2') in 0.009270 seconds 
+  Import took 0.011644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.311118 seconds.
+  path: Assets/Mat 3.mat
+  artifactKey: Guid(080c5f8fd0e45c346b3457b2def77be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mat 3.mat using Guid(080c5f8fd0e45c346b3457b2def77be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7549115fd96c436aa4c052e4b1cfab5') in 0.022133 seconds 
+  Import took 0.024447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.422309 seconds.
+  path: Assets/Mat 2.mat
+  artifactKey: Guid(cd6d96ec370c44c42827258c910fe7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mat 2.mat using Guid(cd6d96ec370c44c42827258c910fe7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e590e37b0b39f9a2bb7d1687014c4d') in 0.018415 seconds 
+  Import took 0.020733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.729726 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '842a36c0875f5919cb1371b0d91c8506') in 0.016959 seconds 
+  Import took 0.019341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.387216 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c46357382cc8217204a8b11f60f5883') in 0.007868 seconds 
+  Import took 0.010377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.056060 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a2e23b5db58bafccf9064e2066b19c') in 0.015392 seconds 
+  Import took 0.017789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.389874 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '391274f47aa1ea6d205c44a318f5fad6') in 0.013386 seconds 
+  Import took 0.015851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.593246 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4baaa482d77a8e88208f0f3217325758') in 0.011741 seconds 
+  Import took 0.014381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.595279 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868c3d662f72ea9d47e44605af35cf81') in 0.012115 seconds 
+  Import took 0.014495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.189618 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143f3e2a1b5bfad284261d08ddab191b') in 0.017767 seconds 
+  Import took 0.020317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.332788 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cfca41bd4c6b03f72b77be819fe7b31') in 0.014180 seconds 
+  Import took 0.016451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.713991 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ff774dd0ee4951fceac0cd46c40695') in 0.008991 seconds 
+  Import took 0.011380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.590838 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2680b6326b8524c8bbf3ae3ab8c507b4') in 0.010060 seconds 
+  Import took 0.012442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.002991 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33f50e6f5145b1674d9108cca33252e') in 0.008109 seconds 
+  Import took 0.010568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.225318 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69440f76b9493c5eda533912200e1668') in 0.013769 seconds 
+  Import took 0.016428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.977797 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a66944a1c3839ba342b65ed63a72b5c5') in 0.015949 seconds 
+  Import took 0.018577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.616912 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb63c7e34104e686fbc0b2b39246799') in 0.013066 seconds 
+  Import took 0.015429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.026468 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af6254c5bbfa97d112d2b305ef36e62') in 0.013936 seconds 
+  Import took 0.016197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.202843 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b14fb4641c71741bbeed48d677c14424') in 0.011861 seconds 
+  Import took 0.014276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.196601 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e10c635221460342cd70dbea74e2144') in 0.017204 seconds 
+  Import took 0.019632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.993781 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78471e10f976399258680d621c2f16c4') in 0.012290 seconds 
+  Import took 0.014708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.783618 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bef0eefe3041a3d4dfdeb07a0013364') in 0.014482 seconds 
+  Import took 0.017833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.606207 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb309ed40ad580a9c2b2837f45964751') in 0.012805 seconds 
+  Import took 0.015170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.016491 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53efee000094f8dcfd022e091537a822') in 0.013978 seconds 
+  Import took 0.016676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.389076 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5621d07ba0ce145ada6f7083a6ecd6a1') in 0.011355 seconds 
+  Import took 0.014134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.643929 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8041966b6b26d24522c5015d9bed09ba') in 0.009499 seconds 
+  Import took 0.012286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.233386 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e8f70ea74d9209031c90de7ee97ec0') in 0.010284 seconds 
+  Import took 0.012680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.614598 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '088dd4c9b6137a4f62234491a825304a') in 0.007961 seconds 
+  Import took 0.010260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.333328 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a23ad3071a844984bb6a3c9b8bb5a88') in 0.012663 seconds 
+  Import took 0.015341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.013365 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba5cacd759f5479da172da7375886504') in 0.012355 seconds 
+  Import took 0.014826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.812051 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6fbc20275f31a1f71476a7d48767d03') in 0.016883 seconds 
+  Import took 0.019489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.913360 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fff130f2478c76f12b10e78b45b7c17') in 0.017752 seconds 
+  Import took 0.020179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.850802 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1380e16dacbc76717813a9946ff522a6') in 0.013270 seconds 
+  Import took 0.017897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.514017 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153fbdea53edae0dc8b4cd9ad28d2e04') in 0.017925 seconds 
+  Import took 0.021298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.101448 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e86284d2f7590dbb262e17b0e1168f1') in 0.028560 seconds 
+  Import took 0.030872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.241724 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f01e538da22fc92ca1ad97ce38e473') in 0.010563 seconds 
+  Import took 0.012981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.618735 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4740fdb5b54c620d902bf6b220b0aaa9') in 0.012455 seconds 
+  Import took 0.014970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.029501 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c60cec8527206e7218c75f9d395a492d') in 0.059632 seconds 
+  Import took 0.062003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.323820 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ba5a5a151a1499ef2c374f0030f5f9') in 0.023647 seconds 
+  Import took 0.026470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.606096 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b1a7c7eeae9d8ff0dfd597cf48c6d0') in 0.025354 seconds 
+  Import took 0.027935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.692722 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '391cf692b63aa6556b9cdc518ea9db9b') in 0.026411 seconds 
+  Import took 0.028868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.610521 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db682a53b17d943c83e46fe0e4d103a3') in 0.008076 seconds 
+  Import took 0.010434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.122511 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0af08bd1f0887f01efa7f2373eeaf1') in 0.011887 seconds 
+  Import took 0.014309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.568219 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe1b44bbe24353644f9c8f27d400cbc') in 0.007740 seconds 
+  Import took 0.010159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.038855 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f9274552a43ec37f0dbec1bd0fad706') in 0.015391 seconds 
+  Import took 0.017910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.235578 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771570e6d9fb9183bab50bd66f4081d9') in 0.028450 seconds 
+  Import took 0.032398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.394589 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76704ff4a40b883774c7c47add39c0c5') in 0.019854 seconds 
+  Import took 0.022319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.159275 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff5f2afa3b67e1eec0cf543b2434f78') in 0.014450 seconds 
+  Import took 0.017067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.200534 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b8c9cac2b8e1db1c8b4f7800d14865') in 0.015074 seconds 
+  Import took 0.017476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.418464 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05faecf3c0e1eb24d9194c7df4533d2b') in 0.014748 seconds 
+  Import took 0.017150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.203524 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67ea527ad168ecf65ee7589311261ed4') in 0.015002 seconds 
+  Import took 0.017391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.091964 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a3d8f4c6d421e7858d1e6f4341b644') in 0.014554 seconds 
+  Import took 0.017105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.021357 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c90fcbe42b515500e7e5a3a845dcc2c') in 0.034326 seconds 
+  Import took 0.036930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.722169 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407182c6bc62595d6ca0e8b52f82c9cb') in 0.014119 seconds 
+  Import took 0.016710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.425228 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b80cb7a0caf93816eac2e040308c1699') in 0.012437 seconds 
+  Import took 0.015278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.306238 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdbea5ecb3be16b60fdb1eabd127f9fd') in 0.013632 seconds 
+  Import took 0.016063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.017582 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa9879950639d8a953f16cc2af742e47') in 0.014605 seconds 
+  Import took 0.017040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.942837 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd77818cd4a2462912f039938cdd997f1') in 0.013903 seconds 
+  Import took 0.016500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.726923 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da028d2cfd115d975784ee928c0db71') in 0.013862 seconds 
+  Import took 0.017324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.268158 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85bd8d4855b957c3db07c3d25f991496') in 0.013102 seconds 
+  Import took 0.015598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.635146 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc97aafb6c5bec0a4c8b85a47cfc4999') in 0.012094 seconds 
+  Import took 0.014987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.624838 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbb8c585fa39725033bf12d49465195f') in 0.010306 seconds 
+  Import took 0.012833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.451156 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1abe57a8915f38e830dcfa585ce2ea0c') in 0.014980 seconds 
+  Import took 0.020373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.932093 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd59fff56039ad3b4136a13392542fc1a') in 0.014827 seconds 
+  Import took 0.020362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.772243 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf81e49daca34c1c15280d664d225bde') in 0.017552 seconds 
+  Import took 0.023291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.017711 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b69a9c5d60d7d65c2007c373151fe2') in 0.013594 seconds 
+  Import took 0.016348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.620451 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4134c49eddfcf2d6b04518742b35b8e9') in 0.013460 seconds 
+  Import took 0.017810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.427696 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f56fb9778ee8f70315d4a0a442aa97cd') in 0.012092 seconds 
+  Import took 0.019291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.923343 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f8e7a75caf3bd13d5a860b1cba726ed') in 0.008500 seconds 
+  Import took 0.012245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.842161 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4bec2b7ebe9fe01885d7d2d6cb0abb1') in 0.011071 seconds 
+  Import took 0.015002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.973173 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e03fb3e58fe008c249c909d684e10055') in 0.011529 seconds 
+  Import took 0.014200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.538477 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b076766a9cb4e484ad869139af7c0bf') in 0.011131 seconds 
+  Import took 0.017108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.806542 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d606a2eac6456c8ca3e17909e25fdfc') in 0.015376 seconds 
+  Import took 0.019673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.013736 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a432fee8440bd58903403a1ee650ec56') in 0.013208 seconds 
+  Import took 0.018366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.468194 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90fae36fd5575f0ef872fe2e29990c99') in 0.008344 seconds 
+  Import took 0.013110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.086277 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32abe4b7ed42cce62743b9cb865ee8be') in 0.010972 seconds 
+  Import took 0.014158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.663756 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c942ea9144b9d171a02ff82107e926fe') in 0.009571 seconds 
+  Import took 0.012322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.489797 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ba9d05d164b2b53a4953342e4b481c') in 0.013706 seconds 
+  Import took 0.018351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.448333 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d72e3f574a5b9c6089cbb84e9ce57ff') in 0.015838 seconds 
+  Import took 0.019885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.105331 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9c528a95e43c2a30d3287b09bd84fc5') in 0.008082 seconds 
+  Import took 0.010859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.848550 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c1ab22fa352e8690933d025e7db586') in 0.012254 seconds 
+  Import took 0.016103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.256325 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb3026a37453a8a9c216d1a7122a7abd') in 0.008654 seconds 
+  Import took 0.015905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.237471 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc8f181000a1da09747291fd81c17dc0') in 0.008731 seconds 
+  Import took 0.013508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.725859 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b3bc8bf2f9d87ebfce558345a90047') in 0.009015 seconds 
+  Import took 0.011482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.038722 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c1d83e3b3942b637dab0a502e73677') in 0.008997 seconds 
+  Import took 0.012862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.388910 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fedfbe4e2c579c19bb41acca92af0633') in 0.013821 seconds 
+  Import took 0.017749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.128271 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '967db65ecef43fc380a41c3fa4578e42') in 0.011063 seconds 
+  Import took 0.015350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.653570 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '064e2e66373aef0d708251650904ca1a') in 0.012991 seconds 
+  Import took 0.017219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.190924 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a780ebffc01e60d4ad5292f4193095') in 0.011856 seconds 
+  Import took 0.014530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.818497 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae07a6aa484b78b354e1de9f7cf9e8f9') in 0.009366 seconds 
+  Import took 0.015812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.875183 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a848fbf98c125f5589cc99c91d97f32') in 0.014950 seconds 
+  Import took 0.019472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.327001 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf9faa00936df845a0eeb26aca8f2983') in 0.009760 seconds 
+  Import took 0.015366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.432332 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80e6e9567b1d84e60883bf127594588a') in 0.015433 seconds 
+  Import took 0.019019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.441777 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dafb837ed039b028cc406292c9cf771a') in 0.008460 seconds 
+  Import took 0.012696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.394965 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50791188dc8947ee272dc5bc54a9d099') in 0.009742 seconds 
+  Import took 0.015632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.995574 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b99539551f6d923c1c4b4263e2fbae') in 0.010126 seconds 
+  Import took 0.016800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.209720 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3b7957cba4c09e24a76e6c9e29e6dbd') in 0.008871 seconds 
+  Import took 0.011599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.388904 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c5fcdd6deb611095841786a6d2ed441') in 0.010321 seconds 
+  Import took 0.015742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007738 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c5fcdd6deb611095841786a6d2ed441') in 0.009637 seconds 
+  Import took 0.012207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.160414 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35152d478c5666021ba14e3a1e8d77f6') in 0.009610 seconds 
+  Import took 0.013306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010919 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35152d478c5666021ba14e3a1e8d77f6') in 0.010983 seconds 
+  Import took 0.013464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.168882 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92bee97f0661fcd4570c93e4e6091189') in 0.011646 seconds 
+  Import took 0.021112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.378774 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e770eb1a899f6abbc362aae2ee3238f') in 0.009276 seconds 
+  Import took 0.011847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.591749 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91e6e65a4c7365505b4898c1ce6d1471') in 0.010422 seconds 
+  Import took 0.015478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.390380 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1309b14bcd2a19637234bd34ab4748c') in 0.009678 seconds 
+  Import took 0.013852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.405107 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede866698f5d49c9e86b55d481d99ebb') in 0.010050 seconds 
+  Import took 0.016134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.403113 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a33cffffc2efce80f921f10ff779237') in 0.008863 seconds 
+  Import took 0.012131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.590763 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e69e066eb96f5c9b0be3b66e6e2de22') in 0.009915 seconds 
+  Import took 0.013395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.488825 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27b17bc58b10eae73b58fad2cb19d50') in 0.015056 seconds 
+  Import took 0.019562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.825268 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6edfd0987b5826614c4bbdbb9072e543') in 0.012956 seconds 
+  Import took 0.015584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.029089 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7040317d2fb617c346f861a3cccc88c4') in 0.013793 seconds 
+  Import took 0.017342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.652009 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e90f367e3e0cfce7beed3f5bc167309') in 0.013537 seconds 
+  Import took 0.016124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.429656 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '725acb039c1af2acfc1147863c09933a') in 0.009639 seconds 
+  Import took 0.019121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.622628 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1f7a9bbe123cf9e4525dc6c2976c074') in 0.019595 seconds 
+  Import took 0.031485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.360294 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f861f28d0dbe89adb5124516ee797e26') in 0.013919 seconds 
+  Import took 0.017916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.211712 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd266ae01d5b8804670a560baf5169441') in 0.013190 seconds 
+  Import took 0.017920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.026707 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3a548c1e58dcb3fc32de7cf36445c5') in 0.014707 seconds 
+  Import took 0.018699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.394014 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8eb457939b1127c5e6663dbca8a4295') in 0.012034 seconds 
+  Import took 0.014506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.800193 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e10d78d23f8e4b894a171a73c7591e') in 0.009382 seconds 
+  Import took 0.016860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.956819 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dfef43494cb53c5a52023fb5c28a3bc') in 0.014226 seconds 
+  Import took 0.018662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.017074 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ba67ec2e2c336d338b5fd317a8d5fe') in 0.009110 seconds 
+  Import took 0.013263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.607614 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb806b19cfd321d78de9b364bda03a22') in 0.019063 seconds 
+  Import took 0.022795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.002148 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0816324713795e254ed30ace1540e9a') in 0.009704 seconds 
+  Import took 0.012254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.804792 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b85171bbc6f7840067cb6a5b5ca9ab') in 0.016368 seconds 
+  Import took 0.019734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.614171 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee3d7ab5ea86425679acaae034c60af') in 0.012708 seconds 
+  Import took 0.016060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.414836 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37227fb9879b5b380035d8c43418dfb1') in 0.012838 seconds 
+  Import took 0.015979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.426822 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afc3a93cd20a75c43aff71486551a646') in 0.274854 seconds 
+  Import took 0.462413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.109174 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '909fd245884463186581d7b17d4be582') in 0.010392 seconds 
+  Import took 0.013085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.657938 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d25d2bd608a40f0cb8d8a81b60085c5') in 0.011987 seconds 
+  Import took 0.016054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.298566 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b42ea10a9310fe591e4c31e427909bc') in 0.014017 seconds 
+  Import took 0.017480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.708855 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7c47d7bb361d63a0b3ab7f8759b0da') in 0.012137 seconds 
+  Import took 0.017243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.240870 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9c81a92a368303c9023dc06fdb8983') in 0.014009 seconds 
+  Import took 0.016575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.605695 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3aef536079d92b53d0db040db88ff88') in 0.017957 seconds 
+  Import took 0.023339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.228283 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bdba0f5fc4d974a40fd65eeaf376445') in 0.056735 seconds 
+  Import took 0.059602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.394828 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '915350e7ae3cd5e00f81ce726cd02861') in 0.013739 seconds 
+  Import took 0.016580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.405704 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb6a04cf09d1eab6be2ee92229336b4') in 0.012215 seconds 
+  Import took 0.014734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.414132 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b4148f66f63a63959d9be3bd5974686') in 0.009635 seconds 
+  Import took 0.012329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.027048 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cccbd7d2777104ee0a3b744cd5e7c21a') in 0.010268 seconds 
+  Import took 0.014120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.468018 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06e387c170f03794a24ac3c15946fe85') in 0.012552 seconds 
+  Import took 0.015900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.394851 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ae3aaf931a677b3f176ebdd3cad1dd') in 0.014469 seconds 
+  Import took 0.017914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.809227 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62a7dd04892e44fbadb399562f4c590') in 0.014049 seconds 
+  Import took 0.016623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.648843 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec8dee70f54d3c08a1ade0572e56641d') in 0.014870 seconds 
+  Import took 0.018665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.825702 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bfd255c725eaf8ea2cae495fedba5c9') in 0.014455 seconds 
+  Import took 0.017934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.459257 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c67a63a899debcc15a72d0e492cd1c9e') in 0.016471 seconds 
+  Import took 0.019629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.200504 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184769c74ce3f1adbc8bbe58ed2fb10d') in 0.016819 seconds 
+  Import took 0.019515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.255630 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45cb173185640d843b935e690729e49d') in 0.011555 seconds 
+  Import took 0.014179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.402747 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c455556471492c0db8c1d95a7c8fbe23') in 0.011042 seconds 
+  Import took 0.014692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.630104 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ecc6e8e92abe1deb2f62337a992efa6') in 0.012089 seconds 
+  Import took 0.016966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.370855 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf8ac4c98ad0f3b086d7749335aaa7d') in 0.009695 seconds 
+  Import took 0.013223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.204185 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fad614506f6f84637d2519039bb34b0') in 0.010066 seconds 
+  Import took 0.012507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.683150 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b4af505479f372c7d41c4092214438') in 0.012244 seconds 
+  Import took 0.015586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.571778 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b8d466efd710c9fc5e0b5fe895577e5') in 0.011550 seconds 
+  Import took 0.016309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.982573 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1be6ddd8601fd1bcb6137dbfcb3e0b00') in 0.011414 seconds 
+  Import took 0.014117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.433567 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4006c884635d57acaa0e831eb00a609') in 0.054359 seconds 
+  Import took 0.191705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.015640 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c9d5b81b9ebf76bd7fdeab687989ca') in 0.010618 seconds 
+  Import took 0.013428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.337376 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a1aca63c99702a6e7cecf6424d2271') in 0.012130 seconds 
+  Import took 0.017219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.619521 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e58f3f1bfbf14090934494bd5ca5c8d0') in 0.013151 seconds 
+  Import took 0.017493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.002057 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac623c187b79fd76a2465e7373c2bed') in 0.015300 seconds 
+  Import took 0.021122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.205198 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16bcbb04c2aa6037c833d110692882e2') in 0.013746 seconds 
+  Import took 0.019887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.297559 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c54e377c43c646df5582ed7cd219a115') in 0.013561 seconds 
+  Import took 0.016240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.006345 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91c429316df8411e528261cdb8661890') in 0.018213 seconds 
+  Import took 0.020864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.402551 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6d234b99a5594dd8d0ab2659bfed04') in 0.011507 seconds 
+  Import took 0.015312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 143.387657 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2f5da0cae2b8bec2c8d514954333f4') in 0.023031 seconds 
+  Import took 0.025957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002882 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2f5da0cae2b8bec2c8d514954333f4') in 0.011608 seconds 
+  Import took 0.014339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.248556 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d45e1e51f88f85245a848b62be8f846') in 0.020176 seconds 
+  Import took 0.022794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.564580 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8fdbf8c02dd75b57792c627c3615c7') in 0.011376 seconds 
+  Import took 0.015292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.622974 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be98ae9df2e4f3c58a2d35d3d269a84b') in 0.011027 seconds 
+  Import took 0.016607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.820363 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a4a76c3acd77c0a435a5efd82b9cee9') in 0.028210 seconds 
+  Import took 0.031681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.582535 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4186d6de65a470b00f0461cca84ec8c') in 0.010051 seconds 
+  Import took 0.013412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.992077 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6618d00d97cd91f331c301fe8d99e7c9') in 0.018433 seconds 
+  Import took 0.023025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 131.783104 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49acccbfd7071e51fc3f8c630c67960e') in 0.019143 seconds 
+  Import took 0.024346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.797411 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e64f22630a93a316eb797266bf61aec8') in 0.019014 seconds 
+  Import took 0.021503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.425749 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629c8b87e729c88308fed744e65577a0') in 0.021048 seconds 
+  Import took 0.024091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.060069 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328e378f69e96293f99561ec318380ca') in 0.013297 seconds 
+  Import took 0.015955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.935758 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f51b1bddbf74eb611199c30cf60e8d4') in 0.014831 seconds 
+  Import took 0.020071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.057340 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17902d7a2c391f6ca0080c0c25bd51f0') in 0.013928 seconds 
+  Import took 0.016573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.414540 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e897689654baab38d9ccae30477e7f8') in 0.012058 seconds 
+  Import took 0.014915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.399274 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f075b35b7eb0dabbac4f02ef420edff5') in 0.019412 seconds 
+  Import took 0.022949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.223175 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a31843696e6b087122f65b9f1251721e') in 0.015297 seconds 
+  Import took 0.017862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.193661 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb09bbef058c74d156736e58b534a1d') in 0.014188 seconds 
+  Import took 0.018609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.383144 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3867480bb1189ae6e07e06e82d99ae') in 0.014412 seconds 
+  Import took 0.019724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.178206 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df521518a06f70f699a97a905c741c56') in 0.017610 seconds 
+  Import took 0.023003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.384826 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e2545ef7e094ad5ee227f364590b16') in 0.013978 seconds 
+  Import took 0.017711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.201118 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a82ee312145c9ab3694a0f0687fe65bc') in 0.013697 seconds 
+  Import took 0.017576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.374667 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60de64cb392cf6586122a6b12fbc14ed') in 0.010691 seconds 
+  Import took 0.014941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.075328 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '265ea494e39f6051a48d332b73fde76a') in 0.010646 seconds 
+  Import took 0.014165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.227082 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceafa9bc4fd9938e6d2a32951e4b8eeb') in 0.013062 seconds 
+  Import took 0.015904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.801588 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2094f632d0923747fac303c662bf3693') in 0.012391 seconds 
+  Import took 0.014938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.402138 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '801c3326ea07e77c6d4133363056b78e') in 0.025326 seconds 
+  Import took 0.028219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.666322 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13c4cdebd207feae2f4a0fa2139d5b5a') in 0.012083 seconds 
+  Import took 0.015725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.401439 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf14b60219ec244e06ac24478ad8502a') in 0.012684 seconds 
+  Import took 0.015459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.645040 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc01646d0ddf2faf97827391b480d67') in 0.011465 seconds 
+  Import took 0.027545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.197171 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '058db7c64ad78f8a59a2952784f8606b') in 0.017419 seconds 
+  Import took 0.020541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008164 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '058db7c64ad78f8a59a2952784f8606b') in 0.010635 seconds 
+  Import took 0.013721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.162964 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73b6535cad611c09f47a128d0ae86038') in 0.010538 seconds 
+  Import took 0.021391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003944 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73b6535cad611c09f47a128d0ae86038') in 0.010908 seconds 
+  Import took 0.020589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.094824 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d7a91c001566a81d284e7973c90df5d') in 0.010043 seconds 
+  Import took 0.024555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001293 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d7a91c001566a81d284e7973c90df5d') in 0.010180 seconds 
+  Import took 0.012850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.179101 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0698452025c1a4a46948878fd4999705') in 0.009741 seconds 
+  Import took 0.012664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.178532 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5de98f7174a965cfb36dd52ca58b293') in 0.014080 seconds 
+  Import took 0.016890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.259811 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deba76348d162ee73994472b428199e0') in 0.010580 seconds 
+  Import took 0.013203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012965 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deba76348d162ee73994472b428199e0') in 0.010089 seconds 
+  Import took 0.012939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.103374 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '789921d3827364c6ecaa0017c1ef8c0b') in 0.010399 seconds 
+  Import took 0.023804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002538 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '789921d3827364c6ecaa0017c1ef8c0b') in 0.009838 seconds 
+  Import took 0.012714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.171057 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c070c46e69d82d9c8333f2502a7dec0a') in 0.029704 seconds 
+  Import took 0.033086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.170816 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd82903d77620df1325084a0fb297b32d') in 0.011109 seconds 
+  Import took 0.018434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008216 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd82903d77620df1325084a0fb297b32d') in 0.012190 seconds 
+  Import took 0.015010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.170696 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f2bbe1985612c539c824c4b54d4a74') in 0.010650 seconds 
+  Import took 0.018759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.402062 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff8ed918e4f7b7de4376143cbba8390') in 0.027898 seconds 
+  Import took 0.031773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.010122 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa3c3eec1d0c12cbafbd570fbf58130') in 0.014885 seconds 
+  Import took 0.017541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.432561 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e64185c8eb3a574c25f3effd56e670') in 0.033976 seconds 
+  Import took 0.036886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.996163 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7eedb5bbd55776b3a712d115ab5ffd1') in 0.017837 seconds 
+  Import took 0.021441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.048483 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf41a58b4c1d2bd4bab7ac8fbf8291b') in 0.015328 seconds 
+  Import took 0.020348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.396199 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6440673e224dd13204075c3f603585de') in 0.013265 seconds 
+  Import took 0.017050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.819176 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa6e79b00e07d900f821cbb6943048af') in 0.013467 seconds 
+  Import took 0.016100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.207987 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ebd12b39f402f7a52e160344ad1a761') in 0.014207 seconds 
+  Import took 0.016843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.815214 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af8bb4f00e6d50a266543284a16bdab0') in 0.016264 seconds 
+  Import took 0.018877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.409175 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2436bb406ee7f0fbf3be34d57fe6ee41') in 0.014754 seconds 
+  Import took 0.020539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.603104 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a63e8725f1db050ae03552e0230d58e9') in 0.013754 seconds 
+  Import took 0.016394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.667513 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0191b6943ca37a972253fc5457bb49bf') in 0.016168 seconds 
+  Import took 0.019241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.009580 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff140c8b14418abe9088cbb1bc33eb93') in 0.012856 seconds 
+  Import took 0.015475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.634718 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b7f50246bacb77c1d99d1642299565b') in 0.014362 seconds 
+  Import took 0.018152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.265178 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37cab8f26a9896cab6e371d17ed180a5') in 0.014901 seconds 
+  Import took 0.020090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.206365 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b759ee31267b1585e4abc6428557e5c') in 0.014150 seconds 
+  Import took 0.018958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.602025 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc750f72e902159848a483d072e92be5') in 0.014907 seconds 
+  Import took 0.017516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.838861 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd899e6361ca83226db23af26d41752bb') in 0.019165 seconds 
+  Import took 0.021911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.421621 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cbd40b7b2210d2ddf7681df29522241') in 0.015565 seconds 
+  Import took 0.021641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.688292 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c714816f75e6bf6d84c87824164309d') in 0.013999 seconds 
+  Import took 0.016788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.017232 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bece018e747cba412e21562b2ac04b72') in 0.014624 seconds 
+  Import took 0.017372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.438057 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b74354bfc3ab8f349134e97332c6dc79') in 0.013401 seconds 
+  Import took 0.017782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.808208 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4225d4d9f5cb64a770e200aec191bcb') in 0.010464 seconds 
+  Import took 0.013104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.825082 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a07e6cddad4ac545b678aa994dce6d8') in 0.030000 seconds 
+  Import took 0.032711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.991370 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68101470639d5ef602dda265b6905fb5') in 0.018662 seconds 
+  Import took 0.023174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.808745 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc7ce84bc30a0c8f8a049d6d60eef06') in 0.016486 seconds 
+  Import took 0.019126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.201965 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9547a1ff710d71f603da6d8f52fd821b') in 0.017630 seconds 
+  Import took 0.022564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.011618 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ac53f8fdbe4ceef5180f240c4c0058') in 0.013963 seconds 
+  Import took 0.018634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.730391 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e858dacfc596bab6042fae27db30df7') in 0.016490 seconds 
+  Import took 0.020726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.027700 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97d22d75c94112fc638148624ec602cd') in 0.021170 seconds 
+  Import took 0.026989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.579399 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6adac0c8cce105b28d7d7201af7ef0d1') in 0.013107 seconds 
+  Import took 0.016106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.633690 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6003335bd9c70fdc06af49bf9256330c') in 0.013181 seconds 
+  Import took 0.016877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.806989 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd79effd989a0e5275196e4416903dd6b') in 0.012893 seconds 
+  Import took 0.016205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.404717 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47aa6043eabdf7f4f2a5e77eed63b9bb') in 0.012853 seconds 
+  Import took 0.015725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.679714 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feccb39ea35aee4feb08013763c395a1') in 0.014353 seconds 
+  Import took 0.017581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.443741 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2db17c37d3bc1751e5eabfdacf6793c8') in 0.013020 seconds 
+  Import took 0.017937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.252013 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98eb230375ef62fb3520f3c9e4b43d81') in 0.013823 seconds 
+  Import took 0.016813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.608441 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f205d255c511100ea40967b40fb29c41') in 0.013867 seconds 
+  Import took 0.017513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.640423 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03334800b0b04a1395db5306f4e7fecd') in 0.016716 seconds 
+  Import took 0.022263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.211779 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b21316b9d55f33fdea0b42f8317bd10a') in 0.016269 seconds 
+  Import took 0.021051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.610656 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e621c122b649421d25ecc5d6e680621') in 0.015822 seconds 
+  Import took 0.018564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.006674 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94dce97a32efac230fb06c82e2179fa8') in 0.013388 seconds 
+  Import took 0.017375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.267232 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71645db42daf690eaa2138637fa2fedb') in 0.013900 seconds 
+  Import took 0.017915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.233212 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '065830ce83e943695aa251ef9509d3da') in 0.012610 seconds 
+  Import took 0.015322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.956961 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f1b20d636597cbf18ba4ba5a8f5484') in 0.013470 seconds 
+  Import took 0.016362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.007490 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a940d3586f3d3788fe1c8423596d933d') in 0.014383 seconds 
+  Import took 0.019068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.194730 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '125344b74b1668d1e55a131aa7c8d441') in 0.011843 seconds 
+  Import took 0.014682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.383062 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2f105cc174d114d8380a4afcd89b5d6') in 0.010833 seconds 
+  Import took 0.014717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.239988 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccdeb4e6dff99a997bea2ac054286cea') in 0.013776 seconds 
+  Import took 0.016622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.250735 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c536f7f5489aa7f0c1ccf4e9b66c3ec3') in 0.015444 seconds 
+  Import took 0.018672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.393537 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f52bee47912f4da10071d99bfa75da3') in 0.011674 seconds 
+  Import took 0.015334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.249233 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b26b67070979f758c0faba832ffbdc1f') in 0.013316 seconds 
+  Import took 0.018339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.509190 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f503647213d7d53d60744b4a71e0fe') in 0.011647 seconds 
+  Import took 0.014599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.637977 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857ca678ed1e97cbd5af9b51812625a4') in 0.013742 seconds 
+  Import took 0.017587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.404823 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0823078a352e2d3694bc1dcda2160ee1') in 0.020159 seconds 
+  Import took 0.029608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.336136 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b13358069f226574e48262babbbd3dd') in 0.025482 seconds 
+  Import took 0.029332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.219058 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c01d02928455aec470cf5d2087235c') in 0.013632 seconds 
+  Import took 0.017341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.105288 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf99a04a31670f1e1dc2ccf39ac44ab') in 0.016365 seconds 
+  Import took 0.019292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.931427 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ea8e13389eb28d2793e585132ac3d4') in 0.020587 seconds 
+  Import took 0.023581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.929674 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ebf44f04f8aae3003aeaf36921cede') in 0.016043 seconds 
+  Import took 0.019840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.297676 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa544647866137bdd869c78eaa564d9') in 0.018387 seconds 
+  Import took 0.021305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.134075 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8823e648f46246a425c232ede530ecec') in 0.019902 seconds 
+  Import took 0.023523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.561940 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2037078b7556749ee8022e4ca504826a') in 0.025442 seconds 
+  Import took 0.030072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.444048 seconds.
+  path: Assets/Buggly.prefab
+  artifactKey: Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buggly.prefab using Guid(f83d47a4e1a16f2468a53374ac63af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4675ada843d9549db437e8fb1b66efea') in 0.019163 seconds 
+  Import took 0.022329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1534.137447 seconds.
+  path: Assets/twister.blend
+  artifactKey: Guid(783818d209a437f4ea059eb5669813db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/twister.blend using Guid(783818d209a437f4ea059eb5669813db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68eee36f4ba9e261e73e79c6c1732364') in 1.545952 seconds 
+  Import took 1.747754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7525.243468 seconds.
+  path: Assets/Mat 1.mat
+  artifactKey: Guid(f73bb1b0ea47879429b969d8372b5d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mat 1.mat using Guid(f73bb1b0ea47879429b969d8372b5d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50eb44e2f5c6570da9887604e604ead5') in 0.396587 seconds 
+  Import took 0.497413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003632 seconds.
+  path: Assets/Mat 3.mat
+  artifactKey: Guid(080c5f8fd0e45c346b3457b2def77be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mat 3.mat using Guid(080c5f8fd0e45c346b3457b2def77be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c63352c673f3c6859990423962b98ba') in 0.084035 seconds 
+  Import took 0.089163 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
