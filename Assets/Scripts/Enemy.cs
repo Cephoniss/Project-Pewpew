@@ -7,6 +7,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] int hitPoints = 5;
     void Start()
     {
+
         //gameObject.AddComponent<Rigidbody>().useGravity = false;
     }
 
@@ -16,6 +17,7 @@ public class Enemy : MonoBehaviour
         if (hitPoints < 1)
         {
         KillEnemy(other);
+        SoundManager.soundManager.PlayExplosionSound();
         }
        
     }
@@ -28,6 +30,7 @@ public class Enemy : MonoBehaviour
        // enemyvfx.transform.parent = parent.transform;
         DestroyGameObject();
     }
+
     private void ScoreOnHit()
     {
         hitPoints--;
