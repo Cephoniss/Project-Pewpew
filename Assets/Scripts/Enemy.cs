@@ -18,7 +18,6 @@ public class Enemy : MonoBehaviour
             if (hitPoints < 1)
             {
                 KillEnemy(other);
-                SoundManager.soundManager.PlayExplosionSound();
             }
            
     }
@@ -28,7 +27,7 @@ public class Enemy : MonoBehaviour
         Debug.Log($"{name}Im hit by {other.gameObject.name}");
         //GameObject enemyvfx = Instantiate(enemyDeathvfx, transform.position, Quaternion.identity);
 
-        //enemyDeathvfx.Play();
+        SoundManager.soundManager.PlayExplosionSound();
         //scoreBoard.UpdateScore(pointValue);
         //GameObject enemyvfx = Instantiate(enemydeath, transform.position, Quaternion.identity);
         // enemyvfx.transform.parent = parent.transform;
