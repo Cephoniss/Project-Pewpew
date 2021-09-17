@@ -15,11 +15,11 @@ public class Enemy : MonoBehaviour
     private void OnParticleCollision(GameObject other)
     {
         ScoreOnHit();
-        if (hitPoints < 1)
-        {
-        KillEnemy(other);
-        }
-       
+            if (hitPoints < 1)
+            {
+                KillEnemy(other);
+            }
+           
     }
     
     private void KillEnemy(GameObject other)
