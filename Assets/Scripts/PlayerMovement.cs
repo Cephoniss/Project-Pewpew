@@ -58,18 +58,4 @@ public void FireCon()
         //Debug.Log("Not shooting");
         }
     }
-public void FireCon2()
-    {
-        
-        if (Input.GetButton("Fire2"))
-        {
-        FireLasers(true);
-        //Debug.Log("firing my laser");
-        }
-        else
-        {
-        FireLasers(false);
-        //Debug.Log("Not shooting");
-        }
-    }
 }
