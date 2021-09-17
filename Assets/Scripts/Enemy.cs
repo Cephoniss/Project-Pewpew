@@ -18,6 +18,7 @@ public class Enemy : MonoBehaviour
             if (hitPoints < 1)
             {
                 KillEnemy(other);
+                SoundManager.soundManager.PlayExplosionSound();
             }
            
     }
