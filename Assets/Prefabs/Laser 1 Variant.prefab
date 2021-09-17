@@ -53,11 +53,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2907186790099087273, guid: 693c1ee3441bb734d8f022a1ac2ddfa6, type: 3}
       propertyPath: m_Name
-      value: Laser 1
+      value: Laser 1 Variant
       objectReference: {fileID: 0}
     - target: {fileID: 4029981181633908541, guid: 693c1ee3441bb734d8f022a1ac2ddfa6, type: 3}
       propertyPath: looping
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029981181633908541, guid: 693c1ee3441bb734d8f022a1ac2ddfa6, type: 3}
+      propertyPath: TrailModule.colorOverLifetime.maxColor.b
+      value: 0.6535121
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029981181633908541, guid: 693c1ee3441bb734d8f022a1ac2ddfa6, type: 3}
+      propertyPath: TrailModule.colorOverLifetime.maxColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029981181633908541, guid: 693c1ee3441bb734d8f022a1ac2ddfa6, type: 3}
+      propertyPath: TrailModule.colorOverLifetime.maxColor.r
+      value: 0.6981132
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 693c1ee3441bb734d8f022a1ac2ddfa6, type: 3}
