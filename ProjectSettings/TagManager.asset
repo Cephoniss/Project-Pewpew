@@ -6,6 +6,7 @@ TagManager:
   tags:
   - laser1
   - laser2
+  - shield
   layers:
   - Default
   - TransparentFX

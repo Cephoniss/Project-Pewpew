@@ -5,11 +5,13 @@ using UnityEngine;
 public class Cooldowns : MonoBehaviour
 {
    public float cooldownTime = 5;
+   public float shieldCDTime = 10;
    private float gunReadyTime = 0;
    private float shieldReadyTime = 0;
    private GameObject laser1;
    private GameObject laser2;
    private GameObject shield;
+   public Rigidbody rb;
 
 
    void Start()
@@ -19,6 +21,7 @@ public class Cooldowns : MonoBehaviour
       shield = GameObject.FindGameObjectWithTag("shield");
       laser2.SetActive(false);
       shield.SetActive(false);
+      rb = GetComponent<Rigidbody>();
    }
    
    private void Update()
@@ -37,8 +40,9 @@ public class Cooldowns : MonoBehaviour
           if (Input.GetButton("Fire3"))
           {
             shield.SetActive(true);
-            Debug.Log("Shields online");
-            shieldReadyTime = Time.time + cooldownTime;
+            shieldsActive();
+            StartCoroutine(shieldsDeactive()); 
+            shieldReadyTime = Time.time + shieldCDTime;
           }
           
        }  
@@ -58,5 +62,26 @@ public class Cooldowns : MonoBehaviour
          laser2.SetActive(false);
       }
    }
-    
+   private void shieldsActive()
+    {
+      if (shield.activeInHierarchy == true)
+      {
+         rb.isKinematic = true;
+         rb.detectCollisions = false;
+         Debug.Log("Shields online");    
+      }
+      else
+      {
+         rb.isKinematic = false;
+         rb.detectCollisions = true;
+      }
+   }
+   IEnumerator shieldsDeactive()
+   {
+      yield return new WaitForSeconds(5);
+      shield.SetActive(false);
+      Debug.Log("Shields offline");
+      rb.isKinematic = false;
+      rb.detectCollisions = true;
+   }
 }
