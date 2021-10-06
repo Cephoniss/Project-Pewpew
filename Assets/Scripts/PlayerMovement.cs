@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] float moveSpeed = 10f;
+    [SerializeField] float moveSpeed = 5f;
     [SerializeField] GameObject[] lasers;
+    [SerializeField] float xClamp =1;
 
     void Start()
     {
@@ -21,17 +22,21 @@ public class PlayerMovement : MonoBehaviour
 
     void MovePlayer()
 {
-        if (Input.GetKey(KeyCode.A))
-        {
-        transform.position += Vector3.left * Time.deltaTime * moveSpeed;
-        }
-         else if (Input.GetKey(KeyCode.D))
-        {
-        transform.position += Vector3.right * Time.deltaTime * moveSpeed;
-        }
-    //float horizontalInput = Input.GetAxis("Horizontal");
-    //float verticalInput = Input.GetAxis("Vertical");
-    //transform.position = transform.position + (horizontalInput * moveSpeed * Time.deltaTime); //verticalInput * moveSpeed * Time.deltaTime, 0);
+    float xMove = Input.GetAxis("Horizontal");
+    float xOffset = xMove * Time.deltaTime * moveSpeed;
+    float updateX = transform.localPosition.x + xOffset;
+    float xClampUpdate = Mathf.Clamp(updateX, -xClamp, xClamp);
+    transform.localPosition = new Vector3(xClampUpdate,transform.localPosition.y,transform.localPosition.z);
+
+        //if (Input.GetKey(KeyCode.A))
+        //{
+        //transform.position += Vector3.left * Time.deltaTime * moveSpeed;
+        //}
+        // else if (Input.GetKey(KeyCode.D))
+        //{
+        //transform.position += Vector3.right * Time.deltaTime * moveSpeed;
+        //}
+
 }
 
 public void FireLasers(bool fireActive)
