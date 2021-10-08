@@ -8,8 +8,8 @@ public class Cooldowns : MonoBehaviour
    public float shieldCDTime = 10;
    private float gunReadyTime = 0;
    private float shieldReadyTime = 0;
-   private GameObject laser1;
-   private GameObject laser2;
+   public GameObject laser1;
+   public GameObject laser2;
    private GameObject shield;
    public Rigidbody rb;
 

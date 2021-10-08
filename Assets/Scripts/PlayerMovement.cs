@@ -7,9 +7,13 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float moveSpeed = 5f;
     [SerializeField] GameObject[] lasers;
     [SerializeField] float xClamp =1;
-
+    [SerializeField] AudioClip pewpewClip;
+    [SerializeField] AudioClip pewpewClip2;
+    AudioSource pewpew;
+    
     void Start()
     {
+        pewpew = GetComponent<AudioSource>();
         
     }
 
@@ -45,6 +49,7 @@ public void FireLasers(bool fireActive)
         {
             var emissionMod = laser.GetComponent<ParticleSystem>().emission;
             emissionMod.enabled = fireActive;
+            
         }
     
     }
@@ -54,13 +59,25 @@ public void FireCon()
         
         if (Input.GetButton("Fire1"))
         {
-        FireLasers(true);
-        //Debug.Log("firing my laser");
+            FireLasers(true);
+            pewpewAudio();
+            Debug.Log("firing my laser");
         }
         else
         {
-        FireLasers(false);
-        //Debug.Log("Not shooting");
+            FireLasers(false);
+            Debug.Log("Not shooting");
         }
     }
+public void pewpewAudio()
+{
+   
+    if (!pewpew.isPlaying)
+    {
+        pewpew.PlayOneShot(pewpewClip);
+    } 
+
+   
+   
+}
 }
