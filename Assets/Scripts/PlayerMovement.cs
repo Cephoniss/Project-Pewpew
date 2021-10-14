@@ -66,7 +66,7 @@ public void FireCon()
         else
         {
             FireLasers(false);
-            Debug.Log("Not shooting");
+            //Debug.Log("Not shooting");
         }
     }
 public void pewpewAudio()
